@@ -1,1 +1,1 @@
-ShadyJs.is
+This is the repo for the website, ShadyJs.is
