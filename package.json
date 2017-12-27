@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "shady-element": "git@github.com:Glitch0011/shady-element.git"
+    "shady-components": "^0.0.2"
   }
 }
