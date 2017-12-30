@@ -11,12 +11,30 @@ export default class ExampleElement extends ShadyElement {
              .replace(/>/g, "&gt;")
              .replace(/"/g, "&quot;")
              .replace(/'/g, "&#039;");
-     }
+    }
+
+    get HiddenCss() {
+        return !this.Data.CssFile ? "hidden" : "";
+    }
+
+    get Count5() {
+        return !this.Data.CssFile ? "4" : "5";
+    }
 
     get Code() {
         return fetch(this.Data.CodeFile).then(i=>{
             return i.text()
         })
+    }
+
+    get Css() {
+        if (this.Data.CssFile) {
+            return fetch(this.Data.CssFile).then(i=>{
+                return i.text()
+            })
+        } else {
+            return "";
+        }
     }
 
     get Html() {

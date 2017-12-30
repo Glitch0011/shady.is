@@ -8,6 +8,50 @@
     border: 10px solid #00000070;
 }
 
+.container > h1 {
+    font-family: 'Poiret One', cursive;
+}
+
 .padd-10 {
     padding: 10px;
+}
+
+.tabs {
+    display: inline-flex;
+    background: gainsboro;
+    width: 100%;
+}
+.tabs > div {
+    padding: 10px;
+    flex-grow: 1;
+    cursor: pointer;
+    user-select: none;
+}
+
+.clickable {
+    user-select: none;
+    cursor: pointer;
+}
+
+.collapsable {
+    transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    overflow: hidden;
+    max-height: 1800px;
+}
+
+.collapsed {
+    max-height: 70;
+    opacity: 0.5;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.example-links > link-element {
+    margin: 5px;
+    padding: 5px;
 }
