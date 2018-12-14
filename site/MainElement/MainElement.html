@@ -1,0 +1,74 @@
+<div class="container">
+    <h1>Shady Components</h1>
+
+    <div>
+        <span>Simple framework for creating Web Components:</span>
+    </div>
+
+    <div class="padd-10">
+
+        <dim>
+            <div class="padd-10 clickable" onclick="toggleCollapse()">
+                <span>Example 1:</span>
+                <upper-element data-text="Upper Element"></upper-element>
+            </div>
+            <div class="collapsable collapsed">
+                <example-element
+                    data-element="upper-element" 
+                    data-code-file="./site/Examples/To Upper/UpperElement.js" 
+                    data-html-file="./site/Examples/To Upper/UpperElement.html"
+                    data-usage-file="./site/Examples/To Upper/index.html">
+                </example-element>
+            </div>
+        </div>
+
+        <div>
+            <div class="padd-10 clickable" onclick="toggleCollapse()">
+                <span>Example 2:</span>
+                <updating-text-element data-text="1" data-interval=1000></updating-text-element>
+            </div>
+            <div class="collapsable collapsed">
+                <example-element
+                    data-element="upper-element" 
+                    data-code-file="./node_modules/shady-components/Examples/Updating Text/UpdatingTextElement/UpdatingTextElement.js" 
+                    data-html-file="./node_modules/shady-components/Examples/Updating Text/UpdatingTextElement/UpdatingTextElement.html"
+                    data-usage-file="./node_modules/shady-components/Examples/Updating Text/index.html">
+                </example-element>
+            </div>
+        </div>
+
+        <div>
+            <div class="padd-10 clickable" onclick="toggleCollapse()">
+                <span>Example 3:</span>
+                <clickable-element></updating-text-element>
+            </div>
+            <div class="collapsable collapsed">
+                <example-element
+                    data-element="upper-element" 
+                    data-code-file="./node_modules/shady-components/Examples/Bound Events/ClickableElement/ClickableElement.js" 
+                    data-html-file="./node_modules/shady-components/Examples/Bound Events/ClickableElement/ClickableElement.html"
+                    data-css-file="./node_modules/shady-components/Examples/Bound Events/ClickableElement/ClickableElement.css"
+                    data-usage-file="./node_modules/shady-components/Examples/Bound Events/index.html">
+                </example-element>
+            </div>
+        </div>
+
+        <div class="padd-10">
+            <div>
+                <span>More Examples</span>
+            </div>
+            <div class="flex example-links">
+                <link-element data-target="./site/Examples/Basic Text/index.html"></link-element>
+                <link-element data-target="./site/Examples/Bound Events/index.html"></link-element>
+                <link-element data-target="./site/Examples/CSS Example/index.html"></link-element>
+                <link-element data-target="./site/Examples/Empty Component/index.html"></link-element>
+                <link-element data-target="./site/Examples/Inline Register/index.html"></link-element>
+                <link-element data-target="./site/Examples/Multiple Elements/index.html"></link-element>
+                <link-element data-target="./site/Examples/Polyfill Demo/index.html"></link-element>
+                <link-element data-target="./site/Examples/Render Custom Properties/index.html"></link-element>
+                <link-element data-target="./site/Examples/To Upper/index.html"></link-element>
+                <link-element data-target="./site/Examples/Updating Text/index.html"></link-element>
+            </div>
+        </div>
+    </div>
+</div>

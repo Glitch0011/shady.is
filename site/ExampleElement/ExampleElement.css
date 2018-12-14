@@ -1,0 +1,29 @@
+.editor {
+    margin: 10px;
+    background: #F0F0F0;
+    border: 1px solid rgba(34,34,34,0.2);
+    text-align: left;
+}
+
+.editor > .title {
+    
+    border-bottom: 1px solid rgba(34,34,34,0.2);
+    font-family: Consolas, monaco, monospace;
+    font-size: 14px;
+    padding:10px;
+}
+
+.editor > .code {
+    padding: 10px;
+   
+    font-family: Consolas, monaco, monospace;
+    font-size: 14px;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    text-align: left;
+}
