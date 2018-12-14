@@ -3,7 +3,7 @@
     "deploy": "npm-run-all deploy:**",
     "deploy:bump": "npm version minor",
     "deploy:build": "gulp",
-    "deploy:deploy": "gh-pages -d dist"
+    "deploy:deploy": "gh-pages -d dist --dotfiles"
   },
   "dependencies": {
     "highlightjs": "^9.12.0",
