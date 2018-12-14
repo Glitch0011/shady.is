@@ -1,7 +1,6 @@
 import ShadyElement from  "./../../node_modules/shady-components/dist/shady.js"
 
-// import "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"
-import "/node_modules/highlightjs/highlight.pack.js"
+import "./../../node_modules/highlightjs/highlight.pack.js"
 
 export default class ExampleElement extends ShadyElement {
     
