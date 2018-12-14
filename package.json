@@ -1,6 +1,18 @@
 {
+  "scripts": {
+    "prepublish": "gulp",
+    "deploy": "gh-pages -d dist",
+    "gulp": "gulp",
+    "prepublishOnly": "gulp",
+    "publish": "gh-pages -d dist"
+  },
   "dependencies": {
+    "gulp": "^4.0.0",
     "highlightjs": "^9.12.0",
     "shady-components": "0.4.0"
-  }
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  },
+  "name": "shady.is"
 }
