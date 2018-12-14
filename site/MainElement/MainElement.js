@@ -1,4 +1,5 @@
-import ShadyElement from "/node_modules/shady-components/shady.js"
+import ShadyElement from "/node_modules/shady-components/dist/shady.js"
+
 import ExampleElement from "../ExampleElement/ExampleElement.js"
 import TitleElement from "../TitleElement/TitleElement.js"
 import LinkElement from "../LinkElement/LinkElement.js"
