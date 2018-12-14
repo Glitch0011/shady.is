@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "shady-components": "0.0.4"
+    "highlightjs": "^9.12.0",
+    "shady-components": "0.4.0"
   }
 }
