@@ -1,8 +1,9 @@
 {
   "scripts": {
-    "deploy": "gh-pages -d dist",
-    "gulp": "gulp",
-    "prepublishOnly": "gulp"
+    "deploy": "npm-run-all deploy:**",
+    "deploy:bump": "npm version minor",
+    "deploy:build": "gulp",
+    "deploy:deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "gulp": "^4.0.0",
