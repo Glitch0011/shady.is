@@ -1,4 +1,4 @@
-import ShadyElement from "/node_modules/shady-components/shady.js"
+import ShadyElement from "/node_modules/shady-components/dist/shady.js"
 
 export class InlineElement extends ShadyElement {
 
